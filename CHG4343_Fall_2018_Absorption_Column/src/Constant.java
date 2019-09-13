@@ -41,7 +41,7 @@ public class Constant
     /* Attempt to open the EquilibriumData.txt file so the equilibrium coefficients can be later imported */
     try
     {
-      equilibriumInputStream = new Scanner(new FileInputStream("Inputs/EquilibriumData.txt"));
+      equilibriumInputStream = new Scanner(new FileInputStream("src/Inputs/EquilibriumData.txt"));
     }
     catch (FileNotFoundException e)
     {
@@ -59,7 +59,7 @@ public class Constant
     /* Attempt to open the Constants.txt file so the constants can later be imported */
     try
     {
-      constantsInputStream = new Scanner(new FileInputStream("Inputs/Constants.txt"));
+      constantsInputStream = new Scanner(new FileInputStream("src/Inputs/Constants.txt"));
     }
     catch (FileNotFoundException e)
     {

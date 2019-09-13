@@ -573,7 +573,7 @@ public class Menu implements Root
   {
     Date date = new Date();
     DateFormat dateFormat = new SimpleDateFormat("yyyy.MM.dd 'at' HH:mm:ss z");  
-    String name = ("Outputs/Results" + " ");
+    String name = ("src/Outputs/Results" + " ");
     
     /* Replaces all ":" characters with "-" because ":" can not be included in a file name */
     String legalDate = dateFormat.format(date).replaceAll(":", "-");
@@ -635,7 +635,7 @@ public class Menu implements Root
     double inputs[] = new double[7];
     try
     {
-      inputStream = new Scanner(new FileInputStream("Inputs/InputValues.txt"));
+      inputStream = new Scanner(new FileInputStream("src/Inputs/InputValues.txt"));   
     }
     catch (FileNotFoundException e)
     {
