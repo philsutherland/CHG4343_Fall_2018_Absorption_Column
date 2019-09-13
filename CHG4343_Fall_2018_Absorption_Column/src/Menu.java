@@ -319,7 +319,7 @@ public class Menu implements Root
     System.out.println("|=============================================================|");
     System.out.println("| This program was built by:                                  |");
     System.out.println("|   - David Beckham (alias)                                   |");
-    System.out.println("|   - Peter Quill (alias)                                     |");
+    System.out.println("|   - Philip Sutherland                                       |");
     System.out.println("|   - Devan Ethans (alias)                                    |");
     System.out.println("|   - Sparkling Soda (alias)                                  |");
     System.out.println("|   - Ken Bong (alias)                                        |");
