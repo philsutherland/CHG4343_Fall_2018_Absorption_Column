@@ -1,0 +1,7 @@
+numStep = 1000          // Number of steps for solving numerical integration: 1 - 10000
+R = 92.0		// Percent recovery: 0.1 - 99.9
+V_0 = 15		// Inlet vapour flow rate: 0.001 - 1000000000
+y_A0 = 0.12		// Inlet vapour mole fraction of component A 
+L_N = 40 		// Inlet liquid flow rate:
+x_AN = 0.0	        // Inlet liquid mole fraction of component A
+packingType = 0         // Packing type: 0 - Rashig Rings, 1 - Berl Saddles, 2 - Pall Rings  

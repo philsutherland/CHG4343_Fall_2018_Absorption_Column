@@ -1,0 +1,5 @@
+/* List the polynomial coefficients below in order from highest order to lowest order */
+Order: 2
+1.9762
+0.0812
+0.0
